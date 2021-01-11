@@ -1,0 +1,40 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin: 0;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+img{
+    vertical-align: top;
+}
+input{
+    padding: 0;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+em,i{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
